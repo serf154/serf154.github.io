@@ -6,7 +6,7 @@ title: Team
 <div class="container">
     {% for teammate in site.team %}
       <div class="team-element">
-            <a href="{{ teammate.pic }}"><img src="{{ teammate.pic }}" width="200" height="200"/></a>
+            <a href="{{ teammate.link }}"><img src="{{ teammate.pic }}" width="200" height="200"/></a>
             <h4 style="text-align: center; margin: 10px">
               <a style="color: black; text-decoration: none" href={{ teammate.link }}>{{ teammate.name }}</a>
             </h4>

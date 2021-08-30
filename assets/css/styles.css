@@ -132,10 +132,10 @@ footer {
 
 .proj-img-text{
     position: absolute;
-    text-decoration: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
     color: black;
     font-size: xx-large;
     text-shadow: .25px 0 0 white, 0 -.25px 0 white, 0 .25px 0 white, -.25px 0 0 white;
