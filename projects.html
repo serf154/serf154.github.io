@@ -1,0 +1,15 @@
+---
+layout: default
+title: Projects
+---
+<h1 style="padding-left: 50px;">Current On-Going Projects</h1>
+<div style="margin-left: 50px; margin-right: 50px;">
+    {% for project in site.projects %}
+    <div class="proj-img-container">
+        <div class="projects" style="height: 150px; width: 100%; margin-bottom: 40px;">
+            <a href="{{ project.url }}" ><img src="{{ project.image }}" class="proj-img"/></a>
+        </div>
+        <div class="proj-img-text">{{ project.name }}</div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,14 @@
+---
+layout: default
+title: Publications
+---
+<h1 style="padding-left: 50px;">Journal Publications</h1>
+<div style="padding-left: 30px">
+<ul>
+{% for publication in site.publications %}
+    <a class="publications" href="{{ publication.link }}">{{ publication.name }}</a>  –  <a class="publications" href="{{ publication.pdf }}">PDF</a>
+    <p class="publication-info" >{{ publication.authors }}</p>
+    <p class="publication-info" style="padding-bottom: 10px;" >{{ publication.publication_info }}</p>
+{% endfor %}
+</ul>
+</div>

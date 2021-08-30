@@ -1,0 +1,16 @@
+---
+layout: default
+title: Team
+---
+<h1 style="padding-left: 50px;">People</h1>
+<div class="container">
+    {% for teammate in site.team %}
+      <div class="team-element">
+            <a href="{{ teammate.pic }}"><img src="{{ teammate.pic }}" width="200" height="200"/></a>
+            <h4 style="text-align: center; margin: 10px">
+              <a style="color: black; text-decoration: none" href={{ teammate.link }}>{{ teammate.name }}</a>
+            </h4>
+            <p style="text-align: center; margin: 0px">{{ teammate.position }}</p>
+      </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,12 @@
+- name: About
+  link: /about.html
+- name: Projects
+  link: /projects.html
+- name: Lab Capabilities
+  link: /lab_capabilities.html
+- name: Team
+  link: /team.html
+- name: Data
+  link: /data.html
+- name: Publications
+  link: /publications.html

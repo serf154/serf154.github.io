@@ -1,0 +1,18 @@
+collections: 
+  team:
+    output: true
+  publications:
+    output: true
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
