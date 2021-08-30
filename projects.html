@@ -9,7 +9,8 @@ title: Projects
         <div class="projects" style="height: 150px; width: 100%; margin-bottom: 40px;">
             <a href="{{ project.url }}" ><img src="{{ project.image }}" class="proj-img"/></a>
         </div>
-        <div class="proj-img-text">{{ project.name }}</div>
+        <div><a class="proj-img-text" href="{{ project.url }}" >{{ project.name }}</a></div>
+        
     </div>
     {% endfor %}
 </div>
